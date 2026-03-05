@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "service": "Služby",
+    "portfolio": "Portfólio",
+    "advantages": "Výhody",
+    "partners": "Partneri",
+    "vacancies": "Voľné miesta",
+    "contacts": "Kontakty"
+  },
+  "header": {
+    "ardService": "ARD SERVICE",
+    "afloatRepairDivision": "Oddelenie plávajúcej opravy",
+    "logoAlt": "ARD Service – Oddelenie plávajúcej opravy"
+  },
+  "hero": {
+    "tagline": "Váš partner pre všetky druhy prác",
+    "title": "Oprava lodí ·",
+    "titleHighlight": "Jachty a člny",
+    "titleSuffix": "Servis",
+    "subtitle": "Komplexná oprava, údržba a servis všetkých typov námorných a riečnych plavidiel, plachetníc, motorových jacht a prívesných motorov.",
+    "location": "Na Dunaji · Slúžime celej Európe · Nepretržitá pohotovosť",
+    "freeEstimate": "Bezplatný odhad",
+    "ourServices": "Naše služby"
+  },
+  "common": {
+    "whatsappTelegram": "(WhatsApp, Telegram)",
+    "company": "Spoločnosť",
+    "contact": "Kontakt",
+    "services": "Služby",
+    "shipRepair": "Oprava lodí",
+    "sailingYachts": "Plachetnice",
+    "motorYachts": "Motorové jachty",
+    "outboardEngines": "Prívesné motory",
+    "generalManager": "Generálny riaditeľ",
+    "technicalManager": "Technický manažér",
+    "hours247": "Pondelok–Nedeľa 24/7",
+    "applyByEmail": "Žiadosť môžete podať aj e-mailom"
+  },
+  "services": {
+    "label": "Čo robíme",
+    "title": "Naše služby",
+    "shipRepairDesc": "Hlavné a plánované opravy námorných a riečnych plavidiel. Trup, motor, elektroinštalácia a ďalšie.",
+    "sailingYachtsDesc": "Oprava sťažňa, oceľovania a trupu. Elektrika a navigácia. Zimovanie a spustenie do prevádzky.",
+    "motorYachtsDesc": "Oprava a generálna oprava palubných motorov. Hriadeľ, vrtuľa. Údržba hydrauliky.",
+    "outboardDesc": "Kompletná diagnostika motorov. Karburátor a palivová sústava. Preplach chladenia. Oprava prevodovky."
+  },
+  "advantages": {
+    "label": "Naše výhody",
+    "title": "Prečo nám zákazníci dôverujú?",
+    "subtitle": "Individuálny prístup, vysoko kvalifikovaní špecialisti a možnosť núdzového servisu v celej Európe.",
+    "item1Title": "Univerzálnosť",
+    "item1Desc": "Riešime zložité úlohy v oblasti opravy lodí, servisu jacht a námorného inžinierstva.",
+    "item2Title": "Profesionalita",
+    "item2Desc": "Vykonávame všetky potrebné výpočty a ponúkame optimálne riešenie pre každú úlohu.",
+    "item3Title": "Transparentnosť",
+    "item3Desc": "Program vernosti zákazníkov, úprimné ceny a overené recenzie.",
+    "item4Title": "Nepretržitá pohotovosť",
+    "item4Desc": "Mobilný tím rýchlej reakcie k dispozícii 24/7 v celej Európe."
+  },
+  "howWeWork": {
+    "label": "Proces",
+    "title": "Ako pracujeme",
+    "step1Title": "Žiadosť",
+    "step1Desc": "Podáte žiadosť o odhad a uvediete kontaktné údaje na stretnutie s manažérom.",
+    "step2Title": "Odhad",
+    "step2Desc": "Do 24 hodín pripravíme odhad prác a pošleme vám na schválenie.",
+    "step3Title": "Vykonanie prác",
+    "step3Desc": "V dohodnutom čase náš tím príde a začne s plánovanými opravami.",
+    "step4Title": "Oprava dokončená",
+    "step4Desc": "Prijmete vykonané práce a uskutočníte dohodnutú záverečnú platbu."
+  },
+  "shipRepair": {
+    "label": "Služby",
+    "title": "Oprava lodí",
+    "intro": "Opravujeme poškodenia z nehôd, porúch a chýb elektrosystémov a motorov, obnovujeme izoláciu a protikoróznu ochranu a ďalšie. Náš tím vykonáva hlavné a plánované opravy všetkých typov námorných a riečnych plavidiel.",
+    "rapidResponse": "24/7",
+    "rapidResponseLabel": "Rýchla reakcia",
+    "imageAlt": "Prebieha oprava lode",
+    "item1": "Výmena súčiastok trupu, vrtuľo-kormidlových sústav, palubných mechanizmov",
+    "item2": "Údržba a oprava kotlov, čerpadiel, motorov a lodných potrubí",
+    "item3": "Oprava hlavných a pomocných dieselových motorov",
+    "item4": "Oprava všetkých typov čerpadiel a pomocných mechanizmov",
+    "item5": "Oprava navijakov, vráťových zariadení a iných mechanizmov",
+    "item6": "Oprava hlavných lodných motorov a dieselových generátorov",
+    "item7": "Oprava sústav a potrubí",
+    "item8": "Oprava a údržba elektrických strojov a generátorov",
+    "item9": "Oprava automatizačných a riadiacich sústav",
+    "item10": "Oprava ventilácie"
+  },
+  "yachtService": {
+    "label": "Služby",
+    "title": "Servis jacht a člnov",
+    "subtitle": "Okrem opravy lodí poskytujeme kompletnú údržbu a servis plachetníc, motorových jacht a prívesných motorov — kdekoľvek v Európe.",
+    "sailingTitle": "Plachetnice",
+    "sailingItem1": "Oprava sťažňa, oceľovania a trupu",
+    "sailingItem2": "Elektrika a navigácia",
+    "sailingItem3": "Zimovanie / spustenie do prevádzky",
+    "sailingItem4": "Protikorózna ochrana",
+    "sailingItem5": "Prehliadka pred / po kúpe",
+    "motorTitle": "Motorové jachty",
+    "motorItem1": "Oprava a generálna oprava palubných motorov",
+    "motorItem2": "Servis dieselových generátorov",
+    "motorItem3": "Oprava hriadeľa a vrtule",
+    "motorItem4": "Údržba hydrauliky",
+    "motorItem5": "Inštalácia zariadení",
+    "outboardTitle": "Prívesné motory",
+    "outboardItem1": "Kompletná diagnostika motoru",
+    "outboardItem2": "Karburátor a palivová sústava",
+    "outboardItem3": "Preplach chladiacej sústavy",
+    "outboardItem4": "Oprava prevodovky",
+    "outboardItem5": "Predsezónna a posezónna údržba",
+    "otherTitle": "Ostatné služby",
+    "otherItem1": "Ladenie a vylepšenia výkonu",
+    "otherItem2": "Inštalácia zariadení",
+    "otherItem3": "Prehliadka pred / po kúpe",
+    "otherItem4": "Protikorózna ochrana",
+    "otherItem5": "Individuálne úpravy"
+  },
+  "portfolio": {
+    "label": "Naše práce",
+    "title": "Portfólio"
+  },
+  "partners": {
+    "label": "Partneri",
+    "title": "Sme oficiálni zástupcovia",
+    "subtitle": "S hrdosťou spolupracujeme s poprednými spoločnosťami v námornom priemysle, aby sme vám poskytli tie najlepšie produkty a služby.",
+    "list": {
+      "asm": { "name": "All Services Marine (A-S-M)", "description": "Servisné stredisko údržby, opravy a modernizácie člnov. Špecializácia: plachetnice, motorové jachty, prívesné motory a ďalšie." },
+      "permateak": { "name": "PermaTEAK", "description": "Vysokokvalitná umelá teaková podlaha. Ekologická, vynikajúci vzhľad bez problémov klasických teakových palúb." },
+      "coelmo": { "name": "COELMO", "description": "Priemyselné a námorné generátorové súpravy od 3 do 4000 kVA od roku 1946. Medzinárodný popredajný servis kedykoľvek a kdekoľvek." },
+      "gydc": { "name": "Global Yacht Delivery Captains", "description": "Skúsení profesionáli dodávajúci jachty všetkých veľkostí po celom svete, s preddodacími prehliadkami a logistikou." },
+      "croatiaBroker": { "name": "Croatia Broker", "description": "Špecializovaná jachtová sprostredkovateľská agentúra v Chorvátsku: predaj a kúpa motorových člnov, plachetníc a iných plavidiel." },
+      "yachtRent": { "name": "Yacht-Rent", "description": "Agentúra pre prenájom jacht s interaktívnou mapou na plánovanie plavieb po chorvátskom pobreží." }
+    }
+  },
+  "contacts": {
+    "label": "Kontakty",
+    "title": "ARD Service s.r.o.",
+    "addressLine1": "Obchodná 559/37",
+    "addressLine2": "811 06 Bratislava - mestská časť c",
+    "vlcieHrdlo": "Vlčie hrdlo 2035/77, 821 07, Bratislava"
+  },
+  "footer": {
+    "description": "Komplexná oprava a údržba plavidiel, jacht a člnov všetkých typov.",
+    "copyright": "ARD Service — Oddelenie plávajúcej opravy. Všetky práva vyhradené.",
+    "logoAlt": "ARD Service – Oddelenie plávajúcej opravy"
+  },
+  "vacancies": {
+    "pageTitle": "Voľné miesta | ARD Service",
+    "careers": "Kariéra",
+    "title": "Voľné miesta",
+    "intro": "Pridajte sa k ARD Service. Hľadáme kvalifikovaných špecialistov na opravu a údržbu lodí.",
+    "workingDay": "Pracovný deň",
+    "documents": "Doklady",
+    "accommodation": "Ubytovanie",
+    "residencePermit": "Povolenie na pobyt / dočasné útočisko",
+    "freeAccommodation": "Možné bezplatné ubytovanie",
+    "hours8to12": "8–12 hodín",
+    "contactLabel": "Kontakt",
+    "job1Title": "Zvárač MIG MAG",
+    "job2Title": "Mechanik na opravu mechanizmov",
+    "job3Title": "Lodný elektrikár (elektrikár na opravu zariadení)"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Stránka nenájdená",
+    "homeLink": "Späť na domov"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "service": "Service",
+    "portfolio": "Portfolio",
+    "advantages": "Advantages",
+    "partners": "Partners",
+    "vacancies": "Vacancies",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "ardService": "ARD SERVICE",
+    "afloatRepairDivision": "Afloat Repair Division",
+    "logoAlt": "ARD Service – Afloat Repair Division"
+  },
+  "hero": {
+    "tagline": "Your partner for all types of work",
+    "title": "Ship Repair ·",
+    "titleHighlight": "Yacht & Boat",
+    "titleSuffix": "Service",
+    "subtitle": "Comprehensive repair, maintenance and service for all types of sea & river vessels, sailing yachts, motor yachts, and outboard engines.",
+    "location": "Located on the Danube · Serving all of Europe · 24/7 Rapid Response",
+    "freeEstimate": "Free Estimate",
+    "ourServices": "Our Services"
+  },
+  "common": {
+    "whatsappTelegram": "(WhatsApp, Telegram)",
+    "company": "Company",
+    "contact": "Contact",
+    "services": "Services",
+    "shipRepair": "Ship Repair",
+    "sailingYachts": "Sailing Yachts",
+    "motorYachts": "Motor Yachts",
+    "outboardEngines": "Outboard Engines",
+    "generalManager": "General Manager",
+    "technicalManager": "Technical manager",
+    "hours247": "Monday–Sunday 24/7",
+    "applyByEmail": "You can also apply by e-mail"
+  },
+  "services": {
+    "label": "What We Do",
+    "title": "Our Services",
+    "shipRepairDesc": "Major and scheduled repairs of all types of sea and river vessels. Hull, engine, electrical systems and more.",
+    "sailingYachtsDesc": "Mast, rigging & hull repair. Electrical & navigation systems. Winterization and commissioning.",
+    "motorYachtsDesc": "Inboard engine repair & overhaul. Drive shaft & propeller repair. Hydraulic system maintenance.",
+    "outboardDesc": "Full engine diagnostics. Carburetor & fuel system. Cooling system flush. Gear housing repair."
+  },
+  "advantages": {
+    "label": "Our Advantages",
+    "title": "Why Do Clients Trust Us?",
+    "subtitle": "Individual approach, highly qualified specialists, and the ability to perform emergency repairs throughout Europe.",
+    "item1Title": "Versatility",
+    "item1Desc": "Solving complex challenges across ship repair, yacht service, and marine engineering.",
+    "item2Title": "Professionalism",
+    "item2Desc": "We perform all necessary calculations and offer the optimal solution for every task.",
+    "item3Title": "Transparency",
+    "item3Desc": "Customer loyalty program, honest pricing, and verified client reviews.",
+    "item4Title": "24/7 Response",
+    "item4Desc": "Mobile rapid response team available around the clock across Europe."
+  },
+  "howWeWork": {
+    "label": "Process",
+    "title": "How We Operate",
+    "step1Title": "Request",
+    "step1Desc": "You submit a request for an estimate and provide your contact details for a meeting with the manager.",
+    "step2Title": "Estimate",
+    "step2Desc": "Within 24 hours, we will prepare the work estimate and send it to you for approval.",
+    "step3Title": "Work Execution",
+    "step3Desc": "At the agreed time, our team arrives and begins to carry out the planned repair work.",
+    "step4Title": "Repair Completed",
+    "step4Desc": "You accept the work completed by our team and make the final agreed payment."
+  },
+  "shipRepair": {
+    "label": "Services",
+    "title": "Ship Repair",
+    "intro": "We repair damage resulting from accidents, failures and defects of electrical systems and engines, renew insulation and corrosion protection, and much more. Our ship repair team carries out major and scheduled repairs of all types of sea and river vessels.",
+    "rapidResponse": "24/7",
+    "rapidResponseLabel": "Rapid Response",
+    "imageAlt": "Ship repair in progress",
+    "item1": "Replacement of hull components, propeller-rudder systems, deck mechanisms",
+    "item2": "Maintenance and repair of boilers, pumps, engines, and ship pipelines",
+    "item3": "Repair of main and auxiliary diesel engines",
+    "item4": "Repair of all types of pumps and auxiliary mechanisms",
+    "item5": "Repair of winches, windlasses, and other mechanisms",
+    "item6": "Repair of main marine engines and diesel generator engines",
+    "item7": "Repair of systems and pipes",
+    "item8": "Repair and maintenance of electric machines and generators",
+    "item9": "Repair of automation and control systems",
+    "item10": "Ventilation repair"
+  },
+  "yachtService": {
+    "label": "Services",
+    "title": "Yacht & Boat Service",
+    "subtitle": "In addition to ship repair, we provide a full range of maintenance and service for sailing yachts, motor yachts, and outboard engines — anywhere in Europe.",
+    "sailingTitle": "Sailing Yachts",
+    "sailingItem1": "Mast, rigging & hull repair",
+    "sailingItem2": "Electrical & navigation systems",
+    "sailingItem3": "Winterization / commissioning",
+    "sailingItem4": "Corrosion protection",
+    "sailingItem5": "Pre / post purchase inspection",
+    "motorTitle": "Motor Yachts",
+    "motorItem1": "Inboard engine repair & overhaul",
+    "motorItem2": "Diesel generator service",
+    "motorItem3": "Drive shaft & propeller repair",
+    "motorItem4": "Hydraulic system maintenance",
+    "motorItem5": "Equipment installation",
+    "outboardTitle": "Outboard Engines",
+    "outboardItem1": "Full engine diagnostics",
+    "outboardItem2": "Carburetor & fuel system",
+    "outboardItem3": "Cooling system flush",
+    "outboardItem4": "Gear housing repair",
+    "outboardItem5": "Pre-season & post-season service",
+    "otherTitle": "Other Services",
+    "otherItem1": "Tuning & performance upgrades",
+    "otherItem2": "Equipment installation",
+    "otherItem3": "Pre / post purchase inspection",
+    "otherItem4": "Corrosion protection",
+    "otherItem5": "Custom modifications"
+  },
+  "portfolio": {
+    "label": "Our Work",
+    "title": "Portfolio"
+  },
+  "partners": {
+    "label": "Partners",
+    "title": "We Are Official Representatives",
+    "subtitle": "We proudly partner with leading companies in the marine industry to bring you the best products and services.",
+    "list": {
+      "asm": { "name": "All Services Marine (A-S-M)", "description": "Service centre for boat maintenance, repair and refurbishment. Specializing in sailing yachts, motor yachts, outboard engines and more." },
+      "permateak": { "name": "PermaTEAK", "description": "High-quality artificial teak floor covering. Ecologically friendly, superior aesthetic appearance without the problems of classic teak decks." },
+      "coelmo": { "name": "COELMO", "description": "Industrial and Marine Generating Sets from 3 to 4000 kVA since 1946. International after sale service, anytime anywhere." },
+      "gydc": { "name": "Global Yacht Delivery Captains", "description": "Experienced professionals delivering yachts of all sizes worldwide, with pre-delivery inspections and logistics management." },
+      "croatiaBroker": { "name": "Croatia Broker", "description": "Specialized yacht brokerage agency in Croatia, focused on the sale and purchase of motorboats, sailing yachts and other vessels." },
+      "yachtRent": { "name": "Yacht-Rent", "description": "Yacht charter agency with an interactive map for planning cruise routes across the Croatian coast." }
+    }
+  },
+  "contacts": {
+    "label": "Contacts",
+    "title": "ARD Service s.r.o.",
+    "addressLine1": "Obchodna 559/37",
+    "addressLine2": "811 06 Bratislava - mestka c",
+    "vlcieHrdlo": "Vlčie hrdlo 2035/77, 821 07, Bratislava"
+  },
+  "footer": {
+    "description": "Comprehensive repair and maintenance for all types of vessels, yachts, and boats.",
+    "copyright": "ARD Service — Afloat Repair Division. All rights reserved.",
+    "logoAlt": "ARD Service – Afloat Repair Division"
+  },
+  "vacancies": {
+    "pageTitle": "Vacancies | ARD Service",
+    "careers": "Careers",
+    "title": "Vacancies",
+    "intro": "Join ARD Service. We are looking for qualified specialists in ship repair and maintenance.",
+    "workingDay": "Working day",
+    "documents": "Documents",
+    "accommodation": "Accommodation",
+    "residencePermit": "Residence permit / temporary asylum",
+    "freeAccommodation": "Free accommodation possible",
+    "hours8to12": "8–12 hours",
+    "contactLabel": "Contact",
+    "job1Title": "MIG MAG Welder",
+    "job2Title": "Mechanic for mechanism repair",
+    "job3Title": "Ship electrician (Equipment repair electrician)"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "homeLink": "Return to Home"
+  }
+}
