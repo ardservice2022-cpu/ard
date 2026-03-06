@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import shipRepairImg from "@/assets/ship-repair.jpg";
-import sailingYachtImg from "@/assets/sailing-yacht.jpg";
 
 const images = [
-  { src: shipRepairImg, altKey: "comprehensiveRepair.imageAlt" },
-  { src: sailingYachtImg, altKey: "comprehensiveRepair.imageAlt2" },
+  { src: "/portfolio/Screen-1.jpg", altKey: "comprehensiveRepair.imageAlt" },
+  { src: "/portfolio/MS-13-2.webp", altKey: "comprehensiveRepair.imageAlt2" },
 ];
 
 const ComprehensiveRepairBlock = () => {

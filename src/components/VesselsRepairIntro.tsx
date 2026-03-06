@@ -1,16 +1,12 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { CheckCircle2, Phone } from "lucide-react";
-import shipRepairImg from "@/assets/ship-repair.jpg";
-import sailingYachtImg from "@/assets/sailing-yacht.jpg";
-import motorYachtImg from "@/assets/motor-yacht.jpg";
-import outboardImg from "@/assets/outboard-engine.jpg";
 
 const images = [
-  { src: shipRepairImg, altKey: "common.shipRepair" },
-  { src: sailingYachtImg, altKey: "common.sailingYachts" },
-  { src: motorYachtImg, altKey: "common.motorYachts" },
-  { src: outboardImg, altKey: "common.outboardEngines" },
+  { src: "/portfolio/port_1.png", altKey: "common.shipRepair" },
+  { src: "/portfolio/port_4.jpeg", altKey: "common.sailingYachts" },
+  { src: "/portfolio/yht_1.jpg", altKey: "common.motorYachts" },
+  { src: "/portfolio/7.png", altKey: "common.outboardEngines" },
 ];
 
 const bulletKeys = ["bullet1", "bullet2", "bullet3", "bullet4"] as const;
