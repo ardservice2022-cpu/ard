@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -14,13 +14,14 @@ const navLinks: { key: string; href: string }[] = [
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [languageDropdownOpen, setLanguageDropdownOpen] = useState(false);
   const [languageDropdownOpenDesktop, setLanguageDropdownOpenDesktop] = useState(false);
   const languageDropdownRef = useRef<HTMLDivElement>(null);
   const languageDropdownDesktopRef = useRef<HTMLDivElement>(null);
-  const location = useLocation();
   const isVacancies = location.pathname === "/vacancies";
   const useSolidBg = scrolled || isVacancies;
   const languages = ["en", "ru", "sk"] as const;
@@ -68,6 +69,21 @@ const Header = () => {
     };
   }, [languageDropdownOpenDesktop]);
 
+  const handleMobileNavClick = (e: React.MouseEvent<HTMLAnchorElement>, link: { href: string }) => {
+    setIsOpen(false);
+    if (link.href.startsWith("/#")) {
+      e.preventDefault();
+      const id = link.href.replace("/#", "");
+      const scroll = () => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      if (location.pathname !== "/") {
+        navigate(link.href);
+        setTimeout(scroll, 400);
+      } else {
+        setTimeout(scroll, 300);
+      }
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -76,17 +92,17 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between h-20">
         {/* Logo – ard_logo.png */}
-        <a href="#" className="flex items-center gap-3 shrink-0">
+        <a href="#" className="flex items-center gap-2 sm:gap-3 shrink-0 min-w-0">
           <img
             src="/ard_logo.png"
             alt={t("header.logoAlt")}
-            className="h-11 w-auto object-contain"
+            className="h-9 sm:h-11 w-auto object-contain shrink-0"
           />
-          <div className="hidden sm:block">
-            <span className="font-heading font-bold text-primary-foreground text-lg tracking-wide">
+          <div className="min-w-0">
+            <span className="font-heading font-bold text-primary-foreground text-sm sm:text-lg tracking-wide block truncate">
               {t("header.ardService")}
             </span>
-            <span className="block text-steel text-[10px] uppercase tracking-[0.2em]">
+            <span className="block text-steel text-[9px] sm:text-[10px] uppercase tracking-[0.2em] truncate">
               {t("header.afloatRepairDivision")}
             </span>
           </div>
@@ -244,7 +260,7 @@ const Header = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => handleMobileNavClick(e, link)}
                   className="text-steel hover:text-primary-foreground text-base font-medium transition-colors uppercase tracking-wider py-2 border-b border-navy-light"
                 >
                   {t(`nav.${link.key}`)}
