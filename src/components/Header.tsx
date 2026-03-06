@@ -84,6 +84,29 @@ const Header = () => {
     }
   };
 
+  const handleNavLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, link: { href: string }) => {
+    if (!link.href.startsWith("/#")) return;
+    e.preventDefault();
+    const id = link.href.replace("/#", "");
+    const scroll = () => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    if (location.pathname !== "/") {
+      navigate(link.href);
+      setTimeout(scroll, 400);
+    } else {
+      setTimeout(scroll, 300);
+    }
+  };
+
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      navigate("/");
+      setTimeout(() => window.scrollTo({ top: 0, behavior: "smooth" }), 100);
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -91,8 +114,13 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between h-20">
-        {/* Logo – ard_logo.png */}
-        <a href="#" className="flex items-center gap-2 sm:gap-3 shrink-0 min-w-0">
+        {/* Logo – click goes to main (/) or scroll to top */}
+        <a
+          href="/"
+          onClick={handleLogoClick}
+          className="flex items-center gap-2 sm:gap-3 shrink-0 min-w-0"
+          aria-label={t("header.logoAlt")}
+        >
           <img
             src="/ard_logo.png"
             alt={t("header.logoAlt")}
@@ -114,6 +142,7 @@ const Header = () => {
             <a
               key={link.href}
               href={link.href}
+              onClick={(e) => handleNavLinkClick(e, link)}
               className="text-steel hover:text-primary-foreground text-sm font-medium transition-colors uppercase tracking-wider"
             >
               {t(`nav.${link.key}`)}

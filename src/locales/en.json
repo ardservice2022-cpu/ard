@@ -1,6 +1,6 @@
 {
   "nav": {
-    "service": "Service",
+    "service": "Services",
     "portfolio": "Portfolio",
     "advantages": "Advantages",
     "partners": "Partners",
@@ -8,7 +8,7 @@
     "contacts": "Contacts"
   },
   "header": {
-    "ardService": "ARD SERVICE",
+    "ardService": "ARD SERVICES",
     "afloatRepairDivision": "Afloat Repair Division",
     "logoAlt": "ARD Service – Afloat Repair Division"
   },
