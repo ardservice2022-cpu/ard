@@ -25,8 +25,11 @@ const ShipRepairSection = () => {
             <h2 className="font-heading font-bold text-primary-foreground text-3xl sm:text-4xl mb-6">
               {t("shipRepair.title")}
             </h2>
-            <p className="text-steel text-base leading-relaxed mb-8">
+            <p className="text-steel text-base leading-relaxed mb-4">
               {t("shipRepair.intro")}
+            </p>
+            <p className="text-brand font-medium text-base mb-8">
+              {t("shipRepair.yachtLine")}
             </p>
 
             <div className="grid gap-3">

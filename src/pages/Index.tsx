@@ -1,8 +1,8 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import ServicesOverview from "@/components/ServicesOverview";
+import VesselsRepairIntro from "@/components/VesselsRepairIntro";
+import ComprehensiveRepairBlock from "@/components/ComprehensiveRepairBlock";
 import ShipRepairSection from "@/components/ShipRepairSection";
-import YachtServiceSection from "@/components/YachtServiceSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import AdvantagesSection from "@/components/AdvantagesSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
@@ -15,9 +15,9 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <HeroSection />
-      <ServicesOverview />
+      <VesselsRepairIntro />
       <ShipRepairSection />
-      <YachtServiceSection />
+      <ComprehensiveRepairBlock />
       <PortfolioSection />
       <AdvantagesSection />
       <HowWeWorkSection />

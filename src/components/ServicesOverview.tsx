@@ -8,9 +8,9 @@ import outboardImg from "@/assets/outboard-engine.jpg";
 
 const services = [
   { icon: Ship, titleKey: "shipRepair", descKey: "shipRepairDesc", image: shipRepairImg, href: "#ship-repair" },
-  { icon: Sailboat, titleKey: "sailingYachts", descKey: "sailingYachtsDesc", image: sailingYachtImg, href: "#yacht-service" },
-  { icon: Anchor, titleKey: "motorYachts", descKey: "motorYachtsDesc", image: motorYachtImg, href: "#yacht-service" },
-  { icon: Wrench, titleKey: "outboardEngines", descKey: "outboardDesc", image: outboardImg, href: "#yacht-service" },
+  { icon: Sailboat, titleKey: "sailingYachts", descKey: "sailingYachtsDesc", image: sailingYachtImg, href: "#ship-repair" },
+  { icon: Anchor, titleKey: "motorYachts", descKey: "motorYachtsDesc", image: motorYachtImg, href: "#ship-repair" },
+  { icon: Wrench, titleKey: "outboardEngines", descKey: "outboardDesc", image: outboardImg, href: "#ship-repair" },
 ];
 
 const ServicesOverview = () => {

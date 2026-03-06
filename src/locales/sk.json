@@ -14,13 +14,32 @@
   },
   "hero": {
     "tagline": "Váš partner pre všetky druhy prác",
-    "title": "Oprava lodí ·",
-    "titleHighlight": "Jachty a člny",
-    "titleSuffix": "Servis",
-    "subtitle": "Komplexná oprava, údržba a servis všetkých typov námorných a riečnych plavidiel, plachetníc, motorových jacht a prívesných motorov.",
+    "title": "Oprava lodí",
+    "titleHighlight": "vrátane jacht a člnov",
+    "titleSuffix": "",
+    "subtitle": "Komplexná oprava a údržba všetkých typov námorných a riečnych plavidiel. Ďalej poskytujeme údržbu a servis plachetníc, motorových jacht a prívesných motorov.",
     "location": "Na Dunaji · Slúžime celej Európe · Nepretržitá pohotovosť",
     "freeEstimate": "Bezplatný odhad",
     "ourServices": "Naše služby"
+  },
+  "vesselsRepair": {
+    "title": "Oprava všetkých typov plavidiel",
+    "yachtLine": "Tiež servisujeme plachetnice, motorové jachty a prívesné motory.",
+    "paragraph1": "Náš tím vykonáva hlavné a plánované opravy všetkých typov námorných a riečnych plavidiel akejkoľvek zložitosti.",
+    "paragraph2": "Naša poloha priamo na Dunaji je ideálna pre plánovanú údržbu a opravu všetkých typov plavidiel. Vďaka univerzálnosti a flexibilite je možné opravy alebo úpravy technických systémov vykonať rýchlo a jednoducho, aj v krátkych lehotách.",
+    "bullet1": "Hlavné a plánované opravy námorných a riečnych plavidiel",
+    "bullet2": "Poloha priamo na Dunaji",
+    "bullet3": "Rýchle vybavenie aj v krátkych lehotách",
+    "bullet4": "Opravy a úpravy akejkoľvek zložitosti",
+    "cta": "Požiadať o cenovú ponuku"
+  },
+  "comprehensiveRepair": {
+    "subheading": "Od vody po súš",
+    "title": "Komplexná oprava",
+    "paragraph1": "Pravidelné prehliadky a monitorovanie technických systémov sú nevyhnutné pre efektívnu a bezproblémovú prevádzku plavidla.",
+    "paragraph2": "Máme potrebných špecialistov na spoľahlivé vykonávanie lodných opráv a zabezpečenie čo najbezpečnejšej a najspoľahlivejšej prevádzky.",
+    "imageAlt": "Oprava lode v suchom doku",
+    "imageAlt2": "Plachetnica"
   },
   "common": {
     "whatsappTelegram": "(WhatsApp, Telegram)",
@@ -49,7 +68,7 @@
     "title": "Prečo nám zákazníci dôverujú?",
     "subtitle": "Individuálny prístup, vysoko kvalifikovaní špecialisti a možnosť núdzového servisu v celej Európe.",
     "item1Title": "Univerzálnosť",
-    "item1Desc": "Riešime zložité úlohy v oblasti opravy lodí, servisu jacht a námorného inžinierstva.",
+    "item1Desc": "Riešime zložité úlohy v oblasti opravy lodí a námorného inžinierstva; tiež ponúkame servis jacht a člnov.",
     "item2Title": "Profesionalita",
     "item2Desc": "Vykonávame všetky potrebné výpočty a ponúkame optimálne riešenie pre každú úlohu.",
     "item3Title": "Transparentnosť",
@@ -73,6 +92,7 @@
     "label": "Služby",
     "title": "Oprava lodí",
     "intro": "Opravujeme poškodenia z nehôd, porúch a chýb elektrosystémov a motorov, obnovujeme izoláciu a protikoróznu ochranu a ďalšie. Náš tím vykonáva hlavné a plánované opravy všetkých typov námorných a riečnych plavidiel.",
+    "yachtLine": "Údržbu a opravu jacht a člnov vykonávame na požiadanie.",
     "rapidResponse": "24/7",
     "rapidResponseLabel": "Rýchla reakcia",
     "imageAlt": "Prebieha oprava lode",
@@ -141,7 +161,7 @@
     "vlcieHrdlo": "Vlčie hrdlo 2035/77, 821 07, Bratislava"
   },
   "footer": {
-    "description": "Komplexná oprava a údržba plavidiel, jacht a člnov všetkých typov.",
+    "description": "Komplexná oprava a údržba plavidiel všetkých typov. Tiež servisujeme jachty a člny.",
     "copyright": "ARD Service — Oddelenie plávajúcej opravy. Všetky práva vyhradené.",
     "logoAlt": "ARD Service – Oddelenie plávajúcej opravy"
   },

@@ -26,9 +26,9 @@ const Footer = () => {
             <h4 className="font-heading font-bold text-primary-foreground text-sm uppercase tracking-wider mb-4">{t("common.services")}</h4>
             <ul className="space-y-2">
               <li><a href="#ship-repair" className="text-steel hover:text-brand text-sm transition-colors">{t("common.shipRepair")}</a></li>
-              <li><a href="#yacht-service" className="text-steel hover:text-brand text-sm transition-colors">{t("common.sailingYachts")}</a></li>
-              <li><a href="#yacht-service" className="text-steel hover:text-brand text-sm transition-colors">{t("common.motorYachts")}</a></li>
-              <li><a href="#yacht-service" className="text-steel hover:text-brand text-sm transition-colors">{t("common.outboardEngines")}</a></li>
+              <li><a href="#ship-repair" className="text-steel hover:text-brand text-sm transition-colors">{t("common.sailingYachts")}</a></li>
+              <li><a href="#ship-repair" className="text-steel hover:text-brand text-sm transition-colors">{t("common.motorYachts")}</a></li>
+              <li><a href="#ship-repair" className="text-steel hover:text-brand text-sm transition-colors">{t("common.outboardEngines")}</a></li>
             </ul>
           </div>
 

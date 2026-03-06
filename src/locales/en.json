@@ -14,13 +14,32 @@
   },
   "hero": {
     "tagline": "Your partner for all types of work",
-    "title": "Ship Repair ·",
-    "titleHighlight": "Yacht & Boat",
-    "titleSuffix": "Service",
-    "subtitle": "Comprehensive repair, maintenance and service for all types of sea & river vessels, sailing yachts, motor yachts, and outboard engines.",
+    "title": "Ship Repair",
+    "titleHighlight": "incl. Yachts & Boats",
+    "titleSuffix": "",
+    "subtitle": "Comprehensive repair and maintenance for all types of sea and river vessels. We also provide maintenance and service for sailing yachts, motor yachts, and outboard engines.",
     "location": "Located on the Danube · Serving all of Europe · 24/7 Rapid Response",
     "freeEstimate": "Free Estimate",
     "ourServices": "Our Services"
+  },
+  "vesselsRepair": {
+    "title": "Repair of all types of vessels",
+    "yachtLine": "We also service sailing yachts, motor yachts, and outboard engines.",
+    "paragraph1": "Our ship repair team carries out major and scheduled repairs of all types of sea and river vessels, performing ship repair work of any complexity.",
+    "paragraph2": "Our location directly on the Danube is ideal for the scheduled maintenance and repair of all types of vessels. Thanks to our versatility and flexibility, repairs or modifications to technical systems can be carried out quickly and easily, even within short timeframes.",
+    "bullet1": "Major & scheduled repairs for sea and river vessels",
+    "bullet2": "Direct location on the Danube",
+    "bullet3": "Quick turnaround even in short timeframes",
+    "bullet4": "Repairs and modifications of any complexity",
+    "cta": "Request a quote"
+  },
+  "comprehensiveRepair": {
+    "subheading": "From water to land",
+    "title": "Comprehensive repair",
+    "paragraph1": "Regular inspections and monitoring of technical systems are essential for the efficient and hassle-free operation of the vessel.",
+    "paragraph2": "We have the necessary specialists to reliably carry out ship repair work, ensuring that the operation is as safe and dependable as possible.",
+    "imageAlt": "Ship repair in dry dock",
+    "imageAlt2": "Sailing yacht"
   },
   "common": {
     "whatsappTelegram": "(WhatsApp, Telegram)",
@@ -49,7 +68,7 @@
     "title": "Why Do Clients Trust Us?",
     "subtitle": "Individual approach, highly qualified specialists, and the ability to perform emergency repairs throughout Europe.",
     "item1Title": "Versatility",
-    "item1Desc": "Solving complex challenges across ship repair, yacht service, and marine engineering.",
+    "item1Desc": "Solving complex challenges in ship repair and marine engineering; we also offer yacht and boat service.",
     "item2Title": "Professionalism",
     "item2Desc": "We perform all necessary calculations and offer the optimal solution for every task.",
     "item3Title": "Transparency",
@@ -73,6 +92,7 @@
     "label": "Services",
     "title": "Ship Repair",
     "intro": "We repair damage resulting from accidents, failures and defects of electrical systems and engines, renew insulation and corrosion protection, and much more. Our ship repair team carries out major and scheduled repairs of all types of sea and river vessels.",
+    "yachtLine": "Yacht and boat maintenance and repair are available on request.",
     "rapidResponse": "24/7",
     "rapidResponseLabel": "Rapid Response",
     "imageAlt": "Ship repair in progress",
@@ -141,7 +161,7 @@
     "vlcieHrdlo": "Vlčie hrdlo 2035/77, 821 07, Bratislava"
   },
   "footer": {
-    "description": "Comprehensive repair and maintenance for all types of vessels, yachts, and boats.",
+    "description": "Comprehensive repair and maintenance for all types of vessels. We also service yachts and boats.",
     "copyright": "ARD Service — Afloat Repair Division. All rights reserved.",
     "logoAlt": "ARD Service – Afloat Repair Division"
   },
